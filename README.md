@@ -1,6 +1,12 @@
- https://www.figma.com/design/t9hunVaZ5BRXjfJ3dLgzjg/LAM---PowerBox---Master-?node-id=1277-104&t=az3tckWQQtSKfEms-4
-<img width="2880" height="84" alt="image" src="https://github.com/user-attachments/assets/5e2cdf16-434b-48cb-98ac-d22c122affc9" />
-HEX 20A78S
-HEX F2C22E
-HEX E89945
-HEX C74F26
+ Description:
+Though mandatory text field of 'Full-load current' (in Set system inputs dialog box) is empty and user clicks on 'Save and recalculate' button, operation proceeds.
+
+Steps to Reproduce:
+Upload the document (PR) for parsing and data extraction.
+Come to APS section.
+Set the inputs in 'Set system inputs dialog box for System type and Full-load current.
+Click on Save and recalculate button.
+Now again open 'Set system inputs' dialog box.
+Erase the value in 'Full-load current' text field.
+Now again click on 'Save and recalculate' button.
+Verify that it saves the data without fulfilment of 'Full-load current' mandatory field as well as the 'asterisks' (red stars) disappears.
