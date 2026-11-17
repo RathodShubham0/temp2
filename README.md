@@ -10,3 +10,17 @@ Now again open 'Set system inputs' dialog box.
 Erase the value in 'Full-load current' text field.
 Now again click on 'Save and recalculate' button.
 Verify that it saves the data without fulfilment of 'Full-load current' mandatory field as well as the 'asterisks' (red stars) disappears.
+
+
+
+Description:
+Though the workflow got completed and came on last stage of Release Document and user completes that operation by Generating BOM, still UI is showing that stage into buffering.
+
+Steps to Reproduce:
+Open NX.
+Open Powerbox plugin.
+Complete the workflow from PR Parsing and Data Extraction to Release Document
+When user goes into the Release Document stage, Generate the BOM.
+Come back to workflow list.
+Verify that Release Document stage is still in buffering mode.
+(please refer an image)
