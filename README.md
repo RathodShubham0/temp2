@@ -24,3 +24,8 @@ When user goes into the Release Document stage, Generate the BOM.
 Come back to workflow list.
 Verify that Release Document stage is still in buffering mode.
 (please refer an image)
+
+
+Description:
+User is able to add huge count of numerical values in the 'Full-load current' text field of Set system inputs dialog box of APD section. This creates huge number of load and count in the 'View previous value(s)' section of dialog box.
+(please refer an images)
